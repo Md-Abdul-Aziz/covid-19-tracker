@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+
+ /* to see large in mobile ( chart) */
+@media only screen and (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+}
